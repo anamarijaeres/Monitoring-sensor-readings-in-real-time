@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component inheritJdk="true">
+	<exclude-output/>
+	<contentEntry url="file://$MODULE_DIR$/../../src/main"/>
+	<lib name="Gradle: com.github.luben:zstd-jni:1.5.0-2" scope="RUNTIME"/>
+	<lib name="Gradle: org.lz4:lz4-java:1.7.1" scope="RUNTIME"/>
+	<lib name="Gradle: org.xerial.snappy:snappy-java:1.1.8.1" scope="RUNTIME"/>
+	<lib name="Gradle: org.slf4j:slf4j-api:1.7.30" scope="RUNTIME"/>
+	<levels>
+		<level name="Gradle: org.apache.kafka:kafka-clients:3.0.0" value="project"/>
+		<level name="Gradle: com.github.luben:zstd-jni:1.5.0-2" value="project"/>
+		<level name="Gradle: org.lz4:lz4-java:1.7.1" value="project"/>
+		<level name="Gradle: org.xerial.snappy:snappy-java:1.1.8.1" value="project"/>
+		<level name="Gradle: org.slf4j:slf4j-api:1.7.30" value="project"/>
+	</levels>
+</component>

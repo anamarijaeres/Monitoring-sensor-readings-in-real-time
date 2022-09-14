@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component inheritJdk="true">
+	<output-test url="file://$MODULE_DIR$/../../build/classes/java/test"/>
+	<exclude-output/>
+	<contentEntry url="file://$MODULE_DIR$/../../src/test">
+		<testFolder url="file://$MODULE_DIR$/../../src/test/java"/>
+		<testFolder url="file://$MODULE_DIR$/../../src/test/resources"/>
+	</contentEntry>
+	<lib name="Gradle: org.junit.jupiter:junit-jupiter-engine:5.7.0" scope="RUNTIME"/>
+	<lib name="Gradle: com.github.luben:zstd-jni:1.5.0-2" scope="RUNTIME"/>
+	<lib name="Gradle: org.lz4:lz4-java:1.7.1" scope="RUNTIME"/>
+	<lib name="Gradle: org.xerial.snappy:snappy-java:1.1.8.1" scope="RUNTIME"/>
+	<lib name="Gradle: org.slf4j:slf4j-api:1.7.30" scope="RUNTIME"/>
+	<lib name="Gradle: org.junit.platform:junit-platform-engine:1.7.0" scope="RUNTIME"/>
+	<levels>
+		<level name="Gradle: org.apache.kafka:kafka-clients:3.0.0" value="project"/>
+		<level name="Gradle: org.junit.jupiter:junit-jupiter-api:5.7.0" value="project"/>
+		<level name="Gradle: org.junit.platform:junit-platform-commons:1.7.0" value="project"/>
+		<level name="Gradle: org.apiguardian:apiguardian-api:1.1.0" value="project"/>
+		<level name="Gradle: org.opentest4j:opentest4j:1.2.0" value="project"/>
+		<level name="Gradle: org.junit.jupiter:junit-jupiter-engine:5.7.0" value="project"/>
+		<level name="Gradle: com.github.luben:zstd-jni:1.5.0-2" value="project"/>
+		<level name="Gradle: org.lz4:lz4-java:1.7.1" value="project"/>
+		<level name="Gradle: org.xerial.snappy:snappy-java:1.1.8.1" value="project"/>
+		<level name="Gradle: org.slf4j:slf4j-api:1.7.30" value="project"/>
+		<level name="Gradle: org.junit.platform:junit-platform-engine:1.7.0" value="project"/>
+	</levels>
+</component>
