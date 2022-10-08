@@ -18,6 +18,9 @@ Requirements for the software and other tools to build, test and push
 - [Java 8 SDK or newer](https://www.oracle.com/es/java/technologies/javase/javase8-archive-downloads.html)
 - [Apache Zookeeper](https://zookeeper.apache.org/releases.html)
 - [Kafka](https://kafka.apache.org/downloads)
+- [SpringBoot](https://spring.io/projects/spring-boot)
+- [Gradle](https://gradle.org/)
+
 
 ### Installing
 
