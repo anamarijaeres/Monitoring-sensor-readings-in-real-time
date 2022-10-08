@@ -26,13 +26,9 @@ environment running.
 
 Kafka is configured using the server.properties configuration file located in KAFKA_HOME\config directory.
     
-    (eg C:\kafka\config\server.properties)
+    C:\kafka\config\server.properties
    
-Kafka stores content to the location defined in the server.properties file under the value
-
-
-    'log.dirs' 
-
+Kafka stores content to the location defined in the server.properties file under the value 'log.dirs'. 
 Value set log.dirs arbitrarily, eg KAFKA_HOME\data\kafka. All other settings can remain
 on assumed values.
 
@@ -41,15 +37,13 @@ on assumed values.
 Zookeeper is configured using the zookeeper.properties configuration file, which
 located in the KAFKA_HOME\config directory.
     
-    (eg C:\kafka\config\zookeeper.properties)
+    C:\kafka\config\zookeeper.properties
 
-Zookeeper stores the content in the location defined in the zookeeper.properties file under the value
-
-    'dataDir'
+Zookeeper stores the content in the location defined in the zookeeper.properties file under the value 'dataDir'.
 
 Set the dataDir value arbitrarily, eg KAFKA_HOME\data\zookeeper. All others the settings can remain at the default values.
 
-Zookeeper and Kafka are started using the terminal. First you need to start Zookeeper, and then ´
+Zookeeper and Kafka are started using the terminal. First you need to start Zookeeper, and then
 Kafka. The startup scripts are located in the KAFKA_HOME\bin\windows directory. Zookeeper
 are started using the 'zookeeper-server-start script' which receives as an argument the path to
 configuration files 
@@ -60,13 +54,6 @@ Kafka is started using the 'kafka-server-start script' which as
 argument receives the path to the configuration file
 
     C:\kafka\bin\windows\kafka-server-start.bat C:\kafka\config\server.properties
-
-
-
-
-End with an example of getting some data out of the system or using it
-for a little demo
-
 
 
 
